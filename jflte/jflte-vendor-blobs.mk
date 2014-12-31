@@ -17,13 +17,13 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/jflte/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/samsung/jflte/proprietary/bin/thermal-engine:system/bin/thermal-engine \
-    vendor/samsung/jflte/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/samsung/jflte/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/samsung/jflte/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/samsung/jflte/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
     vendor/samsung/jflte/proprietary/vendor/firmware/bcm4335_murata.hcd:system/vendor/firmware/bcm4335_murata.hcd \
     vendor/samsung/jflte/proprietary/vendor/firmware/bcm4335_semco.hcd:system/vendor/firmware/bcm4335_semco.hcd \
-    vendor/samsung/jflte/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/samsung/jflte/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+    vendor/samsung/jflte/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/samsung/jflte/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/samsung/jflte/proprietary/blobs/vzw/etc/firmware/q6.b00:system/blobs/vzw/etc/firmware/q6.b00 \
     vendor/samsung/jflte/proprietary/blobs/vzw/etc/firmware/q6.b01:system/blobs/vzw/etc/firmware/q6.b01 \
@@ -99,10 +99,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jflte/proprietary/cameradata/RS_M10MO_SL.bin:system/cameradata/RS_M10MO_SL.bin \
     vendor/samsung/jflte/proprietary/cameradata/RS_M10MO_SS.bin:system/cameradata/RS_M10MO_SS.bin \
     vendor/samsung/jflte/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/samsung/jflte/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/samsung/jflte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/samsung/jflte/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
+    vendor/samsung/jflte/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
+    vendor/samsung/jflte/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/samsung/jflte/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/samsung/jflte/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/samsung/jflte/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -126,30 +126,32 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jflte/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/jflte/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/jflte/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/samsung/jflte/proprietary/vendor/lib/liblocationservice.so:vendor/lib/liblocationservice.so \
     vendor/samsung/jflte/proprietary/bin/insthk:system/bin/insthk \
     vendor/samsung/jflte/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/jflte/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/jflte/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/jflte/proprietary/etc/sec_config:system/etc/sec_config \
-    vendor/samsung/jflte/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
+    vendor/samsung/jflte/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
+    vendor/samsung/jflte/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+    vendor/samsung/jflte/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/samsung/jflte/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/samsung/jflte/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/samsung/jflte/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/samsung/jflte/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
     vendor/samsung/jflte/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
     vendor/samsung/jflte/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/samsung/jflte/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/samsung/jflte/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
+    vendor/samsung/jflte/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
+    vendor/samsung/jflte/proprietary/lib/libidl.so:system/lib/libidl.so \
+    vendor/samsung/jflte/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/samsung/jflte/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+    vendor/samsung/jflte/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/samsung/jflte/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/samsung/jflte/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/samsung/jflte/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/samsung/jflte/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+    vendor/samsung/jflte/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/samsung/jflte/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/samsung/jflte/proprietary/bin/efsks:system/bin/efsks \
     vendor/samsung/jflte/proprietary/bin/ks:system/bin/ks \
@@ -167,14 +169,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jflte/proprietary/blobs/gsm/lib/libsec-ril.so:system/blobs/gsm/lib/libsec-ril.so \
     vendor/samsung/jflte/proprietary/blobs/gsm/lib/libril.so:system/blobs/gsm/lib/libril.so \
     vendor/samsung/jflte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/samsung/jflte/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
+    vendor/samsung/jflte/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    vendor/samsung/jflte/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/samsung/jflte/proprietary/lib/libsensirion_j1.so:system/lib/libsensirion_j1.so \
     vendor/samsung/jflte/proprietary/lib/libsam.so:system/lib/libsam.so \
     vendor/samsung/jflte/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/samsung/jflte/proprietary/lib/hw/sensorhubs.msm8960.so:system/lib/hw/sensorhubs.msm8960.so \
     vendor/samsung/jflte/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/samsung/jflte/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
+    vendor/samsung/jflte/proprietary/lib/libTimeService.so:system/lib/libTimeService.so \
     vendor/samsung/jflte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/jflte/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
     vendor/samsung/jflte/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
@@ -184,10 +188,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jflte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/jflte/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/samsung/jflte/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libdivxdrmdecrypt.so:system/vendor/lib/libdivxdrmdecrypt.so \
+    vendor/samsung/jflte/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+    vendor/samsung/jflte/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/samsung/jflte/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/jflte/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/samsung/jflte/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/jflte/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/jflte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/jflte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
