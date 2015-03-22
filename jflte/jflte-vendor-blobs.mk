@@ -126,7 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jflte/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/jflte/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/jflte/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/samsung/jflte/proprietary/vendor/lib/liblocationservice.so:vendor/lib/liblocationservice.so \
+    vendor/samsung/jflte/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/samsung/jflte/proprietary/bin/insthk:system/bin/insthk \
     vendor/samsung/jflte/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/jflte/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
