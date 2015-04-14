@@ -168,6 +168,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jflte/proprietary/blobs/cdma/lib/libril.so:system/blobs/cdma/lib/libril.so \
     vendor/samsung/jflte/proprietary/blobs/gsm/lib/libsec-ril.so:system/blobs/gsm/lib/libsec-ril.so \
     vendor/samsung/jflte/proprietary/blobs/gsm/lib/libril.so:system/blobs/gsm/lib/libril.so \
+    vendor/samsung/jflte/proprietary/blobs/vzw/lib/libsec-ril.so:system/blobs/vzw/lib/libsec-ril.so \
+    vendor/samsung/jflte/proprietary/blobs/vzw/lib/libril.so:system/blobs/vzw/lib/libril.so \
+    vendor/samsung/jflte/proprietary/blobs/usc/lib/libsec-ril.so:system/blobs/usc/lib/libsec-ril.so \
+    vendor/samsung/jflte/proprietary/blobs/usc/lib/libril.so:system/blobs/usc/lib/libril.so \
     vendor/samsung/jflte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/jflte/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/samsung/jflte/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
