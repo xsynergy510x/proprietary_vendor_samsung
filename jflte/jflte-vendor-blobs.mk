@@ -25,13 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jflte/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/samsung/jflte/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/samsung/jflte/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
-    vendor/samsung/jflte/proprietary/blobs/vzw/etc/firmware/q6.b00:system/blobs/vzw/etc/firmware/q6.b00 \
-    vendor/samsung/jflte/proprietary/blobs/vzw/etc/firmware/q6.b01:system/blobs/vzw/etc/firmware/q6.b01 \
-    vendor/samsung/jflte/proprietary/blobs/vzw/etc/firmware/q6.b03:system/blobs/vzw/etc/firmware/q6.b03 \
-    vendor/samsung/jflte/proprietary/blobs/vzw/etc/firmware/q6.b04:system/blobs/vzw/etc/firmware/q6.b04 \
-    vendor/samsung/jflte/proprietary/blobs/vzw/etc/firmware/q6.b05:system/blobs/vzw/etc/firmware/q6.b05 \
-    vendor/samsung/jflte/proprietary/blobs/vzw/etc/firmware/q6.b06:system/blobs/vzw/etc/firmware/q6.b06 \
-    vendor/samsung/jflte/proprietary/blobs/vzw/etc/firmware/q6.mdt:system/blobs/vzw/etc/firmware/q6.mdt \
     vendor/samsung/jflte/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/samsung/jflte/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/samsung/jflte/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
@@ -164,14 +157,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jflte/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     vendor/samsung/jflte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/jflte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/jflte/proprietary/blobs/cdma/lib/libsec-ril.so:system/blobs/cdma/lib/libsec-ril.so \
-    vendor/samsung/jflte/proprietary/blobs/cdma/lib/libril.so:system/blobs/cdma/lib/libril.so \
-    vendor/samsung/jflte/proprietary/blobs/gsm/lib/libsec-ril.so:system/blobs/gsm/lib/libsec-ril.so \
-    vendor/samsung/jflte/proprietary/blobs/gsm/lib/libril.so:system/blobs/gsm/lib/libril.so \
-    vendor/samsung/jflte/proprietary/blobs/vzw/lib/libsec-ril.so:system/blobs/vzw/lib/libsec-ril.so \
-    vendor/samsung/jflte/proprietary/blobs/vzw/lib/libril.so:system/blobs/vzw/lib/libril.so \
-    vendor/samsung/jflte/proprietary/blobs/usc/lib/libsec-ril.so:system/blobs/usc/lib/libsec-ril.so \
-    vendor/samsung/jflte/proprietary/blobs/usc/lib/libril.so:system/blobs/usc/lib/libril.so \
+    vendor/samsung/jflte/proprietary/blobs/cdma/lib/libsec-ril.so:install/blobs/cdma/lib/libsec-ril.so \
+    vendor/samsung/jflte/proprietary/blobs/cdma/lib/libril.so:install/blobs/cdma/lib/libril.so \
+    vendor/samsung/jflte/proprietary/blobs/gsm/lib/libsec-ril.so:install/blobs/gsm/lib/libsec-ril.so \
+    vendor/samsung/jflte/proprietary/blobs/gsm/lib/libril.so:install/blobs/gsm/lib/libril.so \
+    vendor/samsung/jflte/proprietary/blobs/usc/lib/libsec-ril.so:install/blobs/usc/lib/libsec-ril.so \
+    vendor/samsung/jflte/proprietary/blobs/usc/lib/libril.so:install/blobs/usc/lib/libril.so \
+    vendor/samsung/jflte/proprietary/blobs/vzw/lib/libsec-ril.so:install/blobs/vzw/lib/libsec-ril.so \
+    vendor/samsung/jflte/proprietary/blobs/vzw/lib/libril.so:install/blobs/vzw/lib/libril.so \
+    vendor/samsung/jflte/proprietary/blobs/vzw/etc/firmware/q6.b00:install/blobs/vzw/etc/firmware/q6.b00 \
+    vendor/samsung/jflte/proprietary/blobs/vzw/etc/firmware/q6.b01:install/blobs/vzw/etc/firmware/q6.b01 \
+    vendor/samsung/jflte/proprietary/blobs/vzw/etc/firmware/q6.b03:install/blobs/vzw/etc/firmware/q6.b03 \
+    vendor/samsung/jflte/proprietary/blobs/vzw/etc/firmware/q6.b04:install/blobs/vzw/etc/firmware/q6.b04 \
+    vendor/samsung/jflte/proprietary/blobs/vzw/etc/firmware/q6.b05:install/blobs/vzw/etc/firmware/q6.b05 \
+    vendor/samsung/jflte/proprietary/blobs/vzw/etc/firmware/q6.b06:install/blobs/vzw/etc/firmware/q6.b06 \
+    vendor/samsung/jflte/proprietary/blobs/vzw/etc/firmware/q6.mdt:install/blobs/vzw/etc/firmware/q6.mdt \
     vendor/samsung/jflte/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/samsung/jflte/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/samsung/jflte/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
