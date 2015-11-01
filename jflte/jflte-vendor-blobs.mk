@@ -164,7 +164,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jflte/proprietary/lib/libril-qcril-external.so:system/lib/libril-qcril-external.so \
     vendor/samsung/jflte/proprietary/blobs/cdma/lib/libsec-ril.so:install/blobs/cdma/lib/libsec-ril.so \
     vendor/samsung/jflte/proprietary/blobs/cdma/lib/libril.so:install/blobs/cdma/lib/libril.so \
-    vendor/samsung/jflte/proprietary/blobs/gsm/lib/libsec-ril.so:install/blobs/gsm/lib/libsec-ril.so \
+    vendor/samsung/jflte/proprietary/blobs/gsm/lib/libril-qc-qmi-1.so:install/blobs/gsm/lib/libril-qc-qmi-1.so \
     vendor/samsung/jflte/proprietary/blobs/gsm/lib/libril.so:install/blobs/gsm/lib/libril.so \
     vendor/samsung/jflte/proprietary/blobs/usc/lib/libsec-ril.so:install/blobs/usc/lib/libsec-ril.so \
     vendor/samsung/jflte/proprietary/blobs/usc/lib/libril.so:install/blobs/usc/lib/libril.so \
