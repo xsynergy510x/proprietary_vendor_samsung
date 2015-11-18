@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jflte/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/samsung/jflte/proprietary/bin/radish:system/bin/radish \
     vendor/samsung/jflte/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/samsung/jflte/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/samsung/jflte/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/samsung/jflte/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
     vendor/samsung/jflte/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
